@@ -1,0 +1,20 @@
+
+.login_form{
+    position:relative;
+    left:520px;
+    width:400px;
+    height:400px;
+}
+.login_h1{
+    position:relative;
+    top: 50px;
+    font-weight: bold;
+}
+.login_input{
+    position:relative;
+    top: 50px;
+    font-weight: bold;
+    background-color: powderblue;
+    border-radius: 10px;
+}
+

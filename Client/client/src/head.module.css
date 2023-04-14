@@ -1,0 +1,37 @@
+.head{
+    text-align:center;
+    background-color: powderblue;
+    position:relative;
+    bottom:22px;
+}
+.home{
+    color:white;
+    text-decoration: none;
+}
+.home:visited{
+    color:white;
+    text-decoration: none;
+}
+.home:hover{
+    color:blue;
+    animation:color 1s;
+}
+.log{
+    background-color: rgba(0,0,0,0);
+    border:1px;
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+}
+.log:hover{
+    color:blue;
+    animation:color 1s;
+}
+
+@keyframes color{
+    from{
+        color:powderblue;
+    }to{
+        color:blue;
+    }
+}

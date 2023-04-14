@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+#search{
+    font-weight: bold;
+}
+.intro{
+    text-align: center;
+}
+.food_list{
+    font-weight: bold;
+    border:2px solid powderblue;
+    display:flex;
+}
+.f_btn{
+    background-color:powderblue;
+    border:1px solid powderblue;
+    color:black;   
+}
+.search{
+    border-radius:10px;
+    width:200px;
+    height:30px;
+    font-weight: bold;
+    background-color: powderblue;
+}
+.s_btn{
+    border-radius:10px;
+    height:30px;
+    background-color: powderblue;
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+#main{
+    position: relative;
+    color:powderblue;
+    font-weight:bold;
+    text-align:center;  
+    height:500px;
+    
+}
+#menu_list{
+    font-size:35px;
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.welcome{
+    font-size: 30px;
+}
+
+.weight_status{
+    font-weight: bolder;
+    font-size:20px;
+    color:blue;
+}
+
+.weight_target{
+    font-size:35px;
+    color:cornflowerblue;
+}
+.introduce{
+    position: relative;
+    font-size:40px;
+
+}
+.today{
+    font-size:30px;
+}
+.menu{
+    position:relative;
+    text-decoration: none;
+    color:powderblue;
+}
+
+.menu:visited{
+    text-decoration: none;
+    color:powderblue;
+    
+}
+
+.menu:hover{
+    color:blue;
+    animation: hover-in 1s forwards; 
+}
+
+
+@keyframes hover-in{
+    from{
+        color:powderblue;
+    }to{
+        color:blue;
+    }
+}   
+
+
+

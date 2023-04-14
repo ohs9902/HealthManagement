@@ -1,0 +1,8 @@
+#register{
+    text-align: center;
+}
+.register_input{
+    background-color: powderblue;
+    font-weight: bold;
+    border-radius:10px;
+}

@@ -1,0 +1,52 @@
+#myinfo{
+    position: relative;
+    text-align:center;
+}
+#info{
+    position: absolute;
+    font-weight: bold;
+    font-size:20px;
+    animation:slide 2s;
+    left: 580px;
+}
+.element:hover{
+    animation: hover-in 1s forwards;    
+}
+
+.element:not(:hover){
+    animation: hover-out 1s ;    
+}
+
+.weight_down{
+    color:blue;
+}
+
+.weight_up{
+    color:red;
+}
+
+@keyframes hover-in{
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.3);
+    }
+}
+
+@keyframes hover-out{
+    from{
+        transform: scale(1.3);
+    }to{
+        transform: scale(1.0);
+    }
+}
+
+@keyframes slide{
+    from{
+        left:-100px;
+        opacity:0;
+    }to{
+        left:580px;
+        opacity:1;
+    }
+}

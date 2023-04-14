@@ -1,0 +1,50 @@
+#diet{
+    text-align:center;
+    
+}
+.meal_time{
+    text-decoration: none;
+    font-size:40px;
+    color:powderblue;
+    font-weight: bold;
+}
+.meal_time:visited{
+    color:powderblue;
+}
+.meal_time:hover{
+    animation:color 2s;
+}
+
+.diet_list{
+    list-style-type: none;
+    font-weight: bold;
+    font-size:20px;
+    color:cornflowerblue;
+}
+.diet_btn{
+    border-radius: 10px;
+    background-color: powderblue;
+    font-weight: bold;
+}
+.diet_btn:hover{
+    color:red   ;
+}
+
+#total{
+    font-size:25px;
+    font-weight: bold;
+}
+
+#date{
+    font-weight: bold;
+    color:powderblue;
+
+}
+
+@keyframes color{
+    from{
+        color:powderblue;
+    }to{
+        color:blue;
+    }
+}
